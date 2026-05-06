@@ -45,7 +45,6 @@ def transform_data_with_discount(df: pd.DataFrame):
     # Return aggregations
     # return revenue_by_category, daily_sales
 
-
 # TODO: Step 4 - Save results
 # save_data(revenue, "revenue_with_discount.csv")
 # save_data(daily, "daily_sales_with_discount.csv")
