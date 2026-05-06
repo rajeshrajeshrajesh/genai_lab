@@ -1,0 +1,16 @@
+order_id,customer_id,product,category,price,quantity,order_date
+1,101,Laptop,Electronics,800,1,2024-01-01
+2,102,Phone,Electronics,500,2,2024-01-01
+3,103,Shoes,Fashion,100,1,2024-01-02
+4,104,T-Shirt,Fashion,50,,2024-01-03
+5,104,T-Shirt,Fashion,50,,2024-01-03
+6,105,Jeans,Fashion,80,1,2024-01-04
+7,106,Monitor,Electronics,300,1,2024-01-04
+8,107,Keyboard,Electronics,80,2,2024-01-05
+9,108,Socks,Fashion,20,3,2024-01-05
+10,109,Book,Home,15,1,2024-01-06
+11,110,Lamp,Home,,1,2024-01-06
+12,111,Desk,Home,250,,2024-01-07
+13,112,Chair,Home,150,1,2024-01-07
+14,113,Phone,Electronics,500,1,2024-01-08
+15,114,Shoes,Fashion,100,2,2024-01-08
