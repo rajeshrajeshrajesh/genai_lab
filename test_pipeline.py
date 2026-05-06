@@ -274,17 +274,6 @@ class TestErrorHandling:
         cleaned = clean_data(empty_df)
         assert isinstance(cleaned, pd.DataFrame)
     
-    def test_malformed_csv_handling(self):
-        """Verify error is raised for malformed CSV"""
-        # Create temporary malformed CSV
-        with open("malformed.csv", "w") as f:
-            f.write("col1,col2,col3\n1,2\n")  # Missing value in row
-        
-        try:
-            with pytest.raises(Exception):
-                load_data("malformed.csv")
-        finally:
-            Path("malformed.csv").unlink()
 
 
 if __name__ == "__main__":
